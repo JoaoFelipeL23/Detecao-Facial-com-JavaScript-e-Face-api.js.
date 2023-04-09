@@ -1,5 +1,3 @@
-const { CONNREFUSED } = require("dns");
-
 const cam = document.querySelector('#video')
 
 Promise.all([ // Retorna apenas uma promisse quando todas já estiverem resolvidas
